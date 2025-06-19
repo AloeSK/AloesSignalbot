@@ -8,7 +8,8 @@ from datetime import datetime
 from telegram import Bot
 
 # Load environment variables
-TELEGRAM_TOKEN = os.getenv("TELEGRAM_BOT_TOKEN")
+TELEGRAM_TOKEN = "7993946853:AAGr8vmfTHyrtL1DkoTE68JkmsBG_nB2QSs"
+
 TELEGRAM_USER_ID = os.getenv("TELEGRAM_USER_ID") or "5731928017"
 
 bot = Bot(token=TELEGRAM_TOKEN)
