@@ -25,7 +25,7 @@ RSI_OVERBOUGHT = 70
 
 def get_data(pair):
     try:
-        df = yf.download(tickers=pair, interval="1m", period="30m")
+        df = yf.download(tickers=pair, interval="1m", period="1d")
         return df
     except:
         return None
